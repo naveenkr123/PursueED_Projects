@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="mystyle.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
+
+</head>
+<body>
+    <section>
+        <img src="images/img1.jpg">
+        <img src="images/img2.jpg">
+        <img src="images/img3.jpg">
+        <img src="images/img4.jpg">
+
+        <h1>"Nature is not a place to visit, it is home."</h1>
+
+        <button onclick="prev()"><i class="fa-solid fa-less-than"></i></button>
+        <div class="nav">
+            <button id="bar-1" class="bar" onclick="navMove(0)"></button>
+            <button id="bar-2" class="bar" onclick="navMove(1)"></button>
+            <button id="bar-3" class="bar" onclick="navMove(2)"></button>
+            <button id="bar-4" class="bar" onclick="navMove(3)"></button>
+        </div>
+        <button onclick="next()"><i class="fa-solid fa-greater-than"></i></button>
+        
+    </section>  
+
+
+<script src="myscript.js"></script>
+</body>
+</html>
