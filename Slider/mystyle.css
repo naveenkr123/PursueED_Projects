@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+section{
+    padding: 5px;
+    height: 44rem;
+    object-fit: cover;
+    background-image: url('images/img1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    color: white;
+    font-size: 50px;
+    background-color: transparent;
+    border: 0;
+    aspect-ratio: 1/1;
+}
